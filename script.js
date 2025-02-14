@@ -1,6 +1,6 @@
 const passwordForm = document.getElementById("passwordForm");
 
-passwordForm.addEventListener("submit", comprobarContraseña);
+passwordForm.addEventListener("click", comprobarContraseña);
     
     function comprobarContraseña(event) {
     event.preventDefault(); // Evita el envío automático del formulario
